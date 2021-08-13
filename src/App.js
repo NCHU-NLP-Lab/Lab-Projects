@@ -17,20 +17,22 @@ function App() {
 
   return (
     <>
-    <Header/>
-    <div className="App container">
-      <div className="row">
-        {projects.map((project, i) => {
-          console.log(project)
-          return (
-            <div className="col-md-3 col-12 mt-3" key={i}>
-              <ProjectCard {...project} />
-            </div>
-          )
-        })}
+    <div className="App">
+      <Header />
+      <div className="container">
+        <div className="row">
+          {projects.map((project, i) => {
+            console.log(project)
+            return (
+              <div className="col-md-4 col-xl-3 col-12 mt-3" key={i}>
+                <ProjectCard {...project} />
+              </div>
+            )
+          })}
+        </div>
       </div>
     </div>
-    <Footer/>
+    <Footer />
     </>
   );
 }
