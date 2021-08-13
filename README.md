@@ -18,7 +18,7 @@ https://demo.nlpnchu.org
 - fullName: str
   shortName: str
   image: optional # 如果沒有圖片請將此key刪除
-  content: str
+  context: str
   tags: [tag_a, tag_b, tag_c]
   authors: [{name: str,link: str}] 
   links: [{name: str,style: str, href: str}]
