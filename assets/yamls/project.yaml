@@ -25,3 +25,13 @@
   links: [
     {name: Demo, style: btn-primary, href: https://qgg-demo.nlpnchu.org}
   ]
+
+- fullName: Nerual Distractor Generator
+  shortName: BDG
+  image: /assets/images/lab-logo.png
+  context: 閱讀理解多選題干擾選項生成，給文章，問題和答案生成干擾選項
+  tags: [Distractor, Text Generation]
+  authors: [{name: Eric Lam, link: https://github.com/voidful}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://github.com/voidful/BDG}
+  ]
