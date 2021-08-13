@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+update link : https://github.com/NCHU-NLP-Lab/Lab-Projects/blob/main/public/assets/yamls/project.yaml
 
 ## Available Scripts
 
