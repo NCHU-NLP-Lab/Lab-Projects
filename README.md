@@ -1,5 +1,5 @@
 # Lab Projects / Demo
-實驗室一些可以展示的專案與服務
+實驗室一些可以展示的專案與服務，老師說要拿著它們到處炫耀🥳
 
 https://demo.nlpnchu.org
 
