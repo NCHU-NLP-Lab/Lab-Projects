@@ -58,3 +58,20 @@
     color: gray;
     text-decoration: none;
 }
+
+#ProjCard .extra-head{
+    display: block;
+    position: absolute;
+    top: 0px;
+    /* background-color: rgba(0, 0, 0, 0.35); */
+    width: 100%;
+    text-align: right;
+    border-radius: 3px 3px 0px 0px;
+    height: 28px;
+    opacity: 0.75;
+    color: black;
+}
+
+#ProjCard .extra-head:hover{
+    opacity: 1.0;
+}

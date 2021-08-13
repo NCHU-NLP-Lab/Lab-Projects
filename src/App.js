@@ -23,7 +23,7 @@ function App() {
         {projects.map((project, i) => {
           console.log(project)
           return (
-            <div className="col-md-3 col-12" key={i}>
+            <div className="col-md-3 col-12 mt-3" key={i}>
               <ProjectCard {...project} />
             </div>
           )

@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import { FaGithub } from 'react-icons/fa'
 
 function Tag(props) {
     return (
@@ -19,20 +20,39 @@ function LinkButton(props) {
     )
 }
 
+function ExtraHead(props) {
+    if (props.gitRepo === "") {
+        return <></>
+    }
+    return (
+        <a
+            rel="noreferrer"
+            target="_blank"
+            href={`https://github.com/${props.gitRepo}`}
+            className="extra-head"
+        >
+            <FaGithub className="me-1" size={20} />
+            <img className="me-1" src={`https://img.shields.io/github/stars/${props.gitRepo}?color=green`} alt="" srcset="" />
+        </a>
+        // <span className="extra-head">props</span>
+    )
+}
+
 export default function index(props) {
     console.log(Object.keys(props))
-    let { tags = [], links = [], authors = [], image = "/assets/images/lab-logo.png" } = props
-    if(image[0]==='/'){ // 如果圖片存放在本地
+    let { tags = [], links = [], authors = [], image = "/assets/images/lab-logo.png", gitRepo = '' } = props
+    if (image[0] === '/') { // 如果圖片存放在本地
         image = process.env.PUBLIC_URL + image
     }
     return (
         <div id="ProjCard" className="card" style={{ height: '100%' }}>
             <div className="main-img-container">
+                <ExtraHead gitRepo={gitRepo} />
                 <img src={image} className="main-img" alt="..." />
             </div>
 
             <div className="card-body">
-                <hr className="mb-2"/>
+                <hr className="mb-2" />
                 <h5 className="card-title">{props.fullName}</h5>
                 {tags.map((tag, i) => {
                     return <Tag key={i} name={tag} />
