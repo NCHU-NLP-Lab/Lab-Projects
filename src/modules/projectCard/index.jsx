@@ -22,6 +22,9 @@ function LinkButton(props) {
 export default function index(props) {
     console.log(Object.keys(props))
     let { tags = [], links = [], authors = [], image = "/assets/images/lab-logo.png" } = props
+    if(image[0]==='/'){ // 如果圖片存放在本地
+        image = process.env.PUBLIC_URL + image
+    }
     return (
         <div id="ProjCard" className="card" style={{ height: '100%' }}>
             <div className="main-img-container">
