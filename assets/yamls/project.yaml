@@ -1,0 +1,27 @@
+# - fullName: str
+#   shortName: str
+#   image: optional
+#   content: str
+#   tags: [tag_a, tag_b, tag_c]
+#   authors: [{name: str,link: str}] 
+#   links: [{name: str,style: str, href: str}]
+- fullName: Querator AI
+  shortName: Querator AI
+  image: /assets/images/querator.png
+  context: A powerful AI that understanding your articles and automatically generate questions for you.
+  tags: [QG, BART, Multi-Lang]
+  authors: [{name: Ying-Hong Chan, link: https://github.com/Harry-Chan}]
+  links: [
+    {name: Paper, style: btn-success, href: https://aclanthology.org/D19-5821/},
+    {name: Demo, style: btn-primary, href: https://app.queratorai.com}
+  ]
+
+- fullName: Nerual Question Group Generator
+  shortName: NQGG
+  image: /assets/images/lab-logo.png
+  context: 閱讀理解題組生成；一篇文章，一個按鍵，立即生成。
+  tags: [QGG, BART, GA, NL Learning]
+  authors: [{name: Po-Chun Huang, link: https://github.com/p208p2002}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://qgg-demo.nlpnchu.org}
+  ]
