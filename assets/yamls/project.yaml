@@ -1,11 +1,3 @@
-# - fullName: str
-#   shortName: str
-#   image: optional
-#   content: str
-#   tags: [tag_a, tag_b, tag_c]
-#   authors: [{name: str,link: str}] 
-#   links: [{name: str,style: str, href: str}]
-#   gitRepo: str(username/repo)
 - fullName: Querator AI
   shortName: Querator AI
   image: /assets/images/querator.png
