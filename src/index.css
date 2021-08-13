@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#Footer{
+  width: 100%;
+  color: white;
+  background-color: rgba(8, 25, 45, 1.0);
+}

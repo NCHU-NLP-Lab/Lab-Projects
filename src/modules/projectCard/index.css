@@ -1,0 +1,60 @@
+#ProjCard .main-img-container{
+    width: 100%;
+    height: 220px;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#ProjCard .main-img{
+    max-height:100%;
+    max-width: 100%;
+}
+
+
+#ProjCard .tag{
+    background-color: gray;
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#ProjCard h5{
+    font-size: 18px;
+}
+
+#ProjCard .text-block-config{
+    height: 95px;
+    overflow: hidden;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#ProjCard hr{
+    margin: 3px;
+}
+
+#ProjCard .card-body{
+    padding-bottom: 8px;
+    position: relative;
+    height: 250px;
+}
+
+#ProjCard .card-buttons{
+    position: absolute;
+    bottom: 8px;
+    right: 1rem;
+}
+
+#ProjCard .author-link{
+    color: gray;
+    text-decoration: none;
+}
