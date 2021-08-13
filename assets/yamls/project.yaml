@@ -5,6 +5,7 @@
 #   tags: [tag_a, tag_b, tag_c]
 #   authors: [{name: str,link: str}] 
 #   links: [{name: str,style: str, href: str}]
+#   gitRepo: str(username/repo)
 - fullName: Querator AI
   shortName: Querator AI
   image: /assets/images/querator.png
@@ -35,3 +36,4 @@
   links: [
     {name: Demo, style: btn-primary, href: https://github.com/voidful/BDG}
   ]
+  gitRepo: voidful/BDG
