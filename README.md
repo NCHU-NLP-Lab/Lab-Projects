@@ -22,7 +22,7 @@ https://demo.nlpnchu.org
   tags: [tag_a, tag_b, tag_c]
   authors: [{name: str,link: str}] 
   links: [{name: str,style: str, href: str}]
-  gitRepo: optional #格式：username/repo
+  gitRepo: optional #格式：username/repo，如果無值請刪除此key
 ```
 範例
 ```yaml
