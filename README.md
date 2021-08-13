@@ -55,6 +55,7 @@ https://demo.nlpnchu.org
 ### 指令
 
 第一次clone下來先執行`npm install`
+
 In the project directory, you can run:
 
 #### `npm start`
