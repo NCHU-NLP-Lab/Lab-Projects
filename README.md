@@ -39,7 +39,7 @@ https://demo.nlpnchu.org
 ```
 
 ## 開發/維護
-基本上你不會需要自己編譯與部署，已經設定好github action，修改完畢後推送到repo的時候會自動執行
+基本上你不需要自己部署，已經設定好github action，修改完畢後推送到repo的時候會自動執行
 
 確定`secrets.ACCESS_TOKEN`有被正確設置在repo中即可
 > https://github.com/peaceiris/actions-gh-pages
