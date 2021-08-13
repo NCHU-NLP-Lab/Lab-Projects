@@ -2,7 +2,7 @@
   shortName: Querator AI
   image: /assets/images/querator.png
   context: A powerful AI that understanding your articles and automatically generate questions for you.
-  tags: [QG, BART, Multi-Lang]
+  tags: [QG, BERT, Multi-Lang]
   authors: [{name: Ying-Hong Chan, link: https://github.com/Harry-Chan}]
   links: [
     {name: Paper, style: btn-success, href: https://aclanthology.org/D19-5821/},
