@@ -1,6 +1,6 @@
 {
   "name": "lab-projects",
-  "homepage": "https://nchu-nlp-lab.github.io/Lab-Projects",
+  "homepage": "https://demo.nlpnchu.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
