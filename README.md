@@ -22,6 +22,8 @@ https://demo.nlpnchu.org
   tags: [tag_a, tag_b, tag_c]
   authors: [{name: str,link: str}] 
   links: [{name: str,style: str, href: str}]
+  #可用style: btn-primary, btn-secondary, btn-success, btn-danger, btn-warning, btn-info, btn-light, btn-dark
+  #https://getbootstrap.com/docs/5.1/components/buttons/
   gitRepo: optional #格式：username/repo，如果無值請刪除此key
 ```
 範例
