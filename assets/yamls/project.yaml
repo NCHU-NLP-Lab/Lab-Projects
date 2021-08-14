@@ -34,7 +34,7 @@
   shortName: 犯罪人網路
   context: 使用截至2018年為止以前公開的判決書，製作犯罪人關係的視覺化圖譜
   tags: [犯罪人網路, 社群網路分析]
-  authors: [{name: NLP LAB,link:\#}] 
+  authors: [{name: 姜立綱,link:\#}, {name: 郭溫蘋,link:\#}] 
   links: [
     {name: Demo, style: btn-primary, href: http://crime-network.nlp.cs.nchu.edu.tw}
   ]
