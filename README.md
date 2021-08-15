@@ -8,6 +8,8 @@ https://demo.nlpnchu.org
 
 提交檔案前請先進行[格式驗證](https://codebeautify.org/yaml-validator)
 
+提交後請等待約2分鐘左右，新的內容才會顯示在網頁上
+
 該檔案採用yaml格式，可以簡單參閱一下[語法規則](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
 
 ### 樣板
