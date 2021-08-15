@@ -5,7 +5,11 @@ export async function yamlParser(path){
     .then(r => r.text())
     .then(text => {
       return yaml.load(text)
-    });
+    })
+    .catch(()=>{
+      alert('yaml file parse err!')
+    })
+    ;
     // console.log(parseResult)
     return parseResult
 }
