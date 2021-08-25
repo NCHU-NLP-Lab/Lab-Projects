@@ -26,7 +26,7 @@
   tags: [Distractor, Text Generation]
   authors: [{name: Eric Lam, link: https://github.com/voidful}]
   links: [
-    {name: Demo, style: btn-primary, href: https://github.com/voidful/BDG}
+    {name: Demo, style: btn-primary, href: https://nlp2go.nlpnchu.org}
   ]
   gitRepo: voidful/BDG
 
@@ -38,4 +38,3 @@
   links: [
     {name: Demo, style: btn-primary, href: http://crime-network.nlp.cs.nchu.edu.tw}
   ]
-  
