@@ -38,3 +38,13 @@
   links: [
     {name: Demo, style: btn-primary, href: http://crime-network.nlp.cs.nchu.edu.tw}
   ]
+  
+- fullName: Misleading Inference Generation
+  shortName: MIG
+  image: /assets/images/lab-logo.png
+  context: 基於強化學習之誤導推論生成，給一段句子，標記出想要生成誤導推論的原句，生成誤導推論
+  tags: [BART, Text Generation, Reinforcement Learning]
+  authors: [{name: 彭顯詠, link: https://github.com/seanbbear}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://mig.nlpnchu.org/}
+  ]
