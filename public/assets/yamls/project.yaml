@@ -6,7 +6,7 @@
   authors: [{name: Ying-Hong Chan, link: https://github.com/Harry-Chan}]
   links: [
     {name: Paper, style: btn-success, href: https://aclanthology.org/D19-5821/},
-    {name: Demo, style: btn-primary, href: https://app.queratorai.com}
+    {name: Demo, style: btn-primary, href: https://classic.queratorai.com/}
   ]
 
 - fullName: Nerual Question Group Generator
@@ -36,7 +36,7 @@
   tags: [犯罪人網路, 社群網路分析]
   authors: [{name: 姜立綱,link:\#}, {name: 郭溫蘋,link:\#}] 
   links: [
-    {name: Demo, style: btn-primary, href: http://crime-network.nlp.cs.nchu.edu.tw}
+    {name: Demo, style: btn-primary, href: https://crime-network.nlpnchu.org/graph/}
   ]
   
 - fullName: Misleading Inference Generation
