@@ -59,12 +59,3 @@
     {name: Demo, style: btn-primary, href: https://lscbs.nlpnchu.org/LSCBS.html}
   ]
   
-- fullName: SQuAD Question Answering
-  shortName: SQA
-  image: /assets/images/lab-logo.png
-  context: 問答系統；給定一篇英文文章和問句；系統會生成答案。
-  tags: [BERT, SQuAD, Qusetion Answering]
-  authors: [{name: 余翰承, link: https://github.com/HankyStyle}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://algo.nlpnchu.org/}
-  ]
