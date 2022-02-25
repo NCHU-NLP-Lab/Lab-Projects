@@ -58,3 +58,13 @@
   links: [
     {name: Demo, style: btn-primary, href: https://lscbs.nlpnchu.org/LSCBS.html}
   ]
+  
+- fullName: Question Answering
+  shortName: QA
+  image: /assets/images/lab-logo.png
+  context: 問答系統；給定一篇中英文文章和問句；系統會生成答案。
+  tags: [BERT, SQuAD2.0, drcd, Qusetion Answering]
+  authors: [{name: HankyStyle, link: https://github.com/HankyStyle}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://qa.nlpnchu.org/}
+  ]
