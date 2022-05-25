@@ -1,3 +1,14 @@
+- fullName: Cloze Distractor Generator
+  shortName: CDGP
+  image: /assets/images/CDGP.png
+  context: 基於語言預訓練模型之克漏字干擾選項自動生成，輸入文章並選擇挖空位置，即可自動生成其他干擾選項。
+  tags: [Cloze, Distractor Generation, BERT]
+  authors: [{name: Shang-Hsuan Chiang, link: https://github.com/AndyChiangSH}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://cdgp-demo.nlpnchu.org/}
+  ]
+  gitRepo: AndyChiangSH/CDGP
+
 - fullName: Querator AI
   shortName: Querator AI
   image: /assets/images/querator.png
