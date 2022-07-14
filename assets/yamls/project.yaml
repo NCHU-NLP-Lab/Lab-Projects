@@ -22,13 +22,14 @@
 
 - fullName: Nerual Question Group Generator
   shortName: NQGG
-  image: /assets/images/lab-logo.png
+  image: /assets/images/qgg.png
   context: 閱讀理解題組生成；一篇文章，一個按鍵，立即生成。
   tags: [QGG, BART, GA, NL Learning]
   authors: [{name: Po-Chun Huang, link: https://github.com/p208p2002}]
   links: [
     {name: Demo, style: btn-primary, href: https://qgg-demo.nlpnchu.org}
   ]
+  gitRepo: p208p2002/Neural-Question-Group-Generation
 
 - fullName: Nerual Distractor Generator
   shortName: BDG
