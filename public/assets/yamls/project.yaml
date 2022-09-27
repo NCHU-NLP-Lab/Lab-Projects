@@ -84,7 +84,7 @@
 - fullName: Open Domain Question Answering
   shortName: ODQA
   image: /assets/images/lab-logo.png
-  context: 問答系統: 給定一段問句，系統會找答案。
+  context: 問答系統；給定一段問句，系統會找答案。
   tags: [BERT, pyserini, BM25, Open Domain Qusetion Answering]
   authors: [{name: HankyStyle, link: https://github.com/HankyStyle}]
   links: [
