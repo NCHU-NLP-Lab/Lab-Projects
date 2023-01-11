@@ -96,7 +96,7 @@
   image: /assets/images/lab-logo.png
   context: 換句話說；給定一段文字，系統會對這段文字換句話說。
   tags: [parrot]
-  authors: [{name: ryanlai, link: https://github.com/s1072954}]
+  authors: [{name: 楊世宇, link: https://github.com/s1072954}]
   links: [
-    {name: Demo, style: btn-primary, href: https://iowapi.nlpnchu.org/page/iow}
+    {name: Demo, style: btn-primary, href: https://iowapi.nlpnchu.org/}
   ]
