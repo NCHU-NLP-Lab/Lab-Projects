@@ -101,7 +101,7 @@
     {name: Demo, style: btn-primary, href: https://iowapi.nlpnchu.org/}
   ]
   
-  - fullName: 農業文獻AI自動閱讀系統
+- fullName: 農業文獻AI自動閱讀系統
   shortName: AGRI-ODQA
   image: /assets/images/lab-logo.png
   context: 農業問答系統；給定一段農業相關問句，系統會找答案。
