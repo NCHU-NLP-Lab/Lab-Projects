@@ -60,16 +60,6 @@
   links: [
     {name: Demo, style: btn-primary, href: https://mig.nlpnchu.org/}
   ]
-
-- fullName: 法律判決書相似檢索系統
-  shortName: LSCBS
-  image: /assets/images/lab-logo.png
-  context: 此系統的主要目的為提供一般使用者輸入自己的刑事案件情境，系統即會回饋最相似案件情境的前N篇法律判決書。
-  tags: [BERT]
-  authors: [{name: 曹錫璋, link: https://github.com/an8282p}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://lscbs.nlpnchu.org/LSCBS.html}
-  ]
   
 - fullName: Question Answering
   shortName: QA
