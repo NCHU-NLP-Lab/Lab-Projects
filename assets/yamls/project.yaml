@@ -110,3 +110,13 @@
   links: [
     {name: Demo, style: btn-primary, href: https://agri.nlpnchu.org/}
   ]
+
+- fullName: 法律判決書檢索系統
+  shortName: LAW
+  image: /assets/images/lab-logo.png
+  context: 此系統的主要目的為提供一般使用者輸入自己的刑事案件情境，系統即會回饋最相似案件情境的前5篇法律判決書。
+  tags: [BERT]
+  authors: [{name: 林芃儀, link: https://github.com/gigilin7}, {name: 黃晨華,link:\#}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://law-demo.nlpnchu.org/}
+  ]
