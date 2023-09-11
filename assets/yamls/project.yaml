@@ -60,46 +60,6 @@
   links: [
     {name: Demo, style: btn-primary, href: https://mig.nlpnchu.org/}
   ]
-  
-- fullName: Question Answering
-  shortName: QA
-  image: /assets/images/lab-logo.png
-  context: 問答系統；給定一篇中英文文章和問句；系統會生成答案。
-  tags: [BERT, SQuAD2.0, drcd, Qusetion Answering]
-  authors: [{name: HankyStyle, link: https://github.com/HankyStyle}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://qa.nlpnchu.org/}
-  ]
-  
-- fullName: Open Domain Question Answering
-  shortName: ODQA
-  image: /assets/images/lab-logo.png
-  context: 問答系統；給定一段問句，系統會找答案。
-  tags: [BERT, pyserini, BM25, Open Domain Qusetion Answering]
-  authors: [{name: HankyStyle, link: https://github.com/HankyStyle}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://odqa.nlpnchu.org/}
-  ]
-
-- fullName: 換句話說
-  shortName: IOW
-  image: /assets/images/lab-logo.png
-  context: 換句話說；給定一段文字，系統會對這段文字換句話說。
-  tags: [parrot]
-  authors: [{name: 楊世宇, link: https://github.com/Edmond-Yang}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://iowapi.nlpnchu.org/}
-  ]
-  
-- fullName: 農業文獻AI自動閱讀系統
-  shortName: AGRI-ODQA
-  image: /assets/images/lab-logo.png
-  context: 農業問答系統；給定一段農業相關問句，系統會找答案。
-  tags: [BERT, pyserini, BM25, Qusetion Answering]
-  authors: [{name: HankyStyle, link: https://github.com/HankyStyle}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://agri.nlpnchu.org/}
-  ]
 
 - fullName: 法律判決書檢索系統
   shortName: LAW
@@ -109,4 +69,14 @@
   authors: [{name: 林芃儀, link: https://github.com/gigilin7}, {name: 黃晨華,link:\#}]
   links: [
     {name: Demo, style: btn-primary, href: https://law-demo.nlpnchu.org/}
+  ]
+
+  - fullName: 神農GPT
+  shortName: demetergpt
+  image: /assets/images/lab-logo.png
+  context: 農業問答系統；給定一段農業相關問句，系統會找答案。
+  tags: [ChatGPT, pyserini, BM25, Qusetion Answering]
+  authors: [{name: 范耀中, link:\#}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://demetergpt.nlpnchu.org/}
   ]
