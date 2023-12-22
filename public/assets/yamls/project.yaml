@@ -80,3 +80,14 @@
   links: [
     {name: Demo, style: btn-primary, href: https://demetergpt.nlpnchu.org/}
   ]
+
+- fullName: 選擇題自動生成系統
+  shortName: demetergpt
+  image: /assets/images/lab-logo.png
+  context: 三步驟，針對任意主題，生成選擇題考體。
+  tags: [ChatGPT, pyserini, BM25, Qusetion Generation]
+  authors: [{name: 賴信彰, link: https://github.com/s1072954}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://mcq-demo.nlpnchu.org/}
+  ]
+  
