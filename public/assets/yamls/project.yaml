@@ -5,7 +5,7 @@
   tags: [BERT]
   authors: [{name: 鄭宇辰, link:\#}, {name: 李彥吾,link:\#}]
   links: [
-    {name: Demo, style: btn-primary, href: https://law-demo.nlpnchu.org/}
+    {name: Demo, style: btn-primary, href: http://140.120.13.248:11304/}
   ]
 
 - fullName: 神農TAIDE
@@ -15,7 +15,7 @@
   tags: [ChatGPT, pyserini, BM25, Qusetion Answering]
   authors: [{name: 范耀中, link:\#}]
   links: [
-    {name: Demo, style: btn-primary, href: https://demetergpt.nlpnchu.org/}
+    {name: Demo, style: btn-primary, href: https://demetergptv2.nlpnchu.org/}
   ]
 
 
