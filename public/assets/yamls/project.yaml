@@ -1,3 +1,24 @@
+- fullName: TAIDE相似判決書檢索系統
+  shortName: LAW
+  image: /assets/images/lab-logo.png
+  context: 此系統為一個準確又有效率的相似判決書檢索平台，適合法律專業人士及一般民眾使用。
+  tags: [BERT]
+  authors: [{name: 鄭宇辰, link:\#}, {name: 李彥吾,link:\#}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://law-demo.nlpnchu.org/}
+  ]
+
+- fullName: 神農TAIDE
+  shortName: demetergpt
+  image: /assets/images/lab-logo.png
+  context: 基於台灣語言模型TAIDE的先進RAG，用於回答農業相關問題。
+  tags: [ChatGPT, pyserini, BM25, Qusetion Answering]
+  authors: [{name: 范耀中, link:\#}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://demetergpt.nlpnchu.org/}
+  ]
+
+
 - fullName: Cloze Distractor Generator
   shortName: CDGP
   image: /assets/images/CDGP.png
@@ -18,67 +39,6 @@
   links: [
     {name: Paper, style: btn-success, href: https://aclanthology.org/D19-5821/},
     {name: Demo, style: btn-primary, href: https://classic.queratorai.com/}
-  ]
-
-- fullName: Nerual Question Group Generator
-  shortName: NQGG
-  image: /assets/images/qgg.png
-  context: 閱讀理解題組生成；一篇文章，一個按鍵，立即生成。
-  tags: [QGG, BART, GA, NL Learning]
-  authors: [{name: Po-Chun Huang, link: https://github.com/p208p2002}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://qgg-demo.nlpnchu.org}
-  ]
-  gitRepo: p208p2002/Neural-Question-Group-Generation
-
-- fullName: Nerual Distractor Generator
-  shortName: BDG
-  image: /assets/images/lab-logo.png
-  context: 閱讀理解多選題干擾選項生成，給文章，問題和答案生成干擾選項
-  tags: [Distractor, Text Generation]
-  authors: [{name: Eric Lam, link: https://github.com/voidful}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://nlp2go.nlpnchu.org}
-  ]
-  gitRepo: voidful/BDG
-
-- fullName: 犯罪人關係網路
-  shortName: 犯罪人網路
-  context: 使用截至2018年為止以前公開的判決書，製作犯罪人關係的視覺化圖譜
-  tags: [犯罪人網路, 社群網路分析]
-  authors: [{name: 姜立綱,link:\#}, {name: 郭溫蘋,link:\#}] 
-  links: [
-    {name: Demo, style: btn-primary, href: https://crime-network.nlpnchu.org/graph/}
-  ]
-  
-- fullName: Misleading Inference Generation
-  shortName: MIG
-  image: /assets/images/lab-logo.png
-  context: 基於強化學習之誤導推論生成，給一段句子，標記出想要生成誤導推論的原句，生成誤導推論
-  tags: [BART, Text Generation, Reinforcement Learning]
-  authors: [{name: 彭顯詠, link: https://github.com/seanbbear}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://mig.nlpnchu.org/}
-  ]
-
-- fullName: 法律判決書檢索系統
-  shortName: LAW
-  image: /assets/images/lab-logo.png
-  context: 此系統的主要目的為提供一般使用者輸入自己的刑事案件情境，系統即會回饋最相似案件情境的前5篇法律判決書。
-  tags: [BERT]
-  authors: [{name: 林芃儀, link: https://github.com/gigilin7}, {name: 黃晨華,link:\#}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://law-demo.nlpnchu.org/}
-  ]
-
-- fullName: 神農GPT
-  shortName: demetergpt
-  image: /assets/images/lab-logo.png
-  context: 農業問答系統；給定一段農業相關問句，系統會找答案。
-  tags: [ChatGPT, pyserini, BM25, Qusetion Answering]
-  authors: [{name: 范耀中, link:\#}]
-  links: [
-    {name: Demo, style: btn-primary, href: https://demetergpt.nlpnchu.org/}
   ]
 
 - fullName: 選擇題自動生成系統
